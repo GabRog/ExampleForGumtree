@@ -1,8 +1,9 @@
 public class Sumator {
-    public static int sum(int a, int b) {
+    public int sum(int c, int b) {
         int result;
+        result = c + b;
         int emptyVar;
-        result = a + b;
+        System.out.println(result);
         return result;
     }
 }
